@@ -1,13 +1,13 @@
 body {
   background-color: #F0F4F8;  /* Light option */
   /* background-color: #E1E8ED;  Darker option */
+  font-family: 'Poppins';
 }
 
 
 .container {
   margin: 0 0;
   padding: 20px;
-  /* padding: 20px; */
   border: 2px solid lightgray;
   border-radius: 20px;
   width: fit-content;
@@ -21,20 +21,19 @@ body {
 h1 {
   margin-top: 0px;
   position: relative;
-  bottom: 35px;
-  /* background-color: white; */
+  bottom: 43.5px;
   background: linear-gradient(to bottom, #F0F4F8 30%, #FAFAFA 70%);
-  margin-bottom: -20px;
+  margin-bottom: -43px;
   padding: 0 10px;
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: 600;
   width: fit-content;
 }
 
 input {
   margin-bottom: 10px;
   border-radius: 7px;
-
-  font-family: 'Arial', sans-serif;
+  /* font-family: 'Arial', sans-serif; */
   font-size: 16px;
   color: #333;
   padding: 12px 16px;
@@ -43,7 +42,6 @@ input {
   border-radius: 4px;
   background-color: #f8f8f8;
   transition: all 0.3s ease;
-  /* width: 100%; */
   box-sizing: border-box;
 }
 
@@ -55,12 +53,13 @@ input:focus {
 }
 
 .output {
-  margin-bottom: 10px;
+  margin-top: 8px;
+  font-size: 18px;
   /* padding: 20px; */
 }
 
 button {
-  font-family: 'Arial', sans-serif;
+  /* font-family: 'Arial', sans-serif; */
   font-size: 16px;
   font-weight: 600;
   color: #ffffff;

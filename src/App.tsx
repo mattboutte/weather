@@ -75,7 +75,6 @@ export default function App() {
 
   return (
     <>
-
       <div className="container">
 
         <h1>Hello, {city === "" ? "weather" : city}!</h1>
