@@ -65,7 +65,7 @@ export default function App() {
       */
   const handleSubmit = (e: React.FormEvent<HTMLFormElement> | React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault(); // This will work for both form submit and button click events
-    const url: string = `http://api.weatherapi.com/v1/current.json?key=595209f47db94879a00182126243006&q=${input}&aqi=no`;
+    const url: string = `https://api.weatherapi.com/v1/current.json?key=595209f47db94879a00182126243006&q=${input}&aqi=no`;
     fetch(url)
       .then(response => response.json())
       .then(json => setState(json))
